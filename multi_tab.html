@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="pt-3 bg-dark">
         <nav class="container">
             <div class="row">
                 <div class="col-4"><a href="#">ホーム</a></div>
@@ -29,7 +29,7 @@
         </nav>
     </header>
     <!-- タブ切り替え -->
-    <div class="container">
+    <div class="container mt-3">
         <ul class="nav nav-tabs">
             <li class="nav-item">
                 <a href="#tab1" class="nav-link active" data-toggle="tab">タブ1</a>
@@ -41,37 +41,33 @@
                 <a href="#tab3" class="nav-link" data-toggle="tab">タブ3</a>
             </li>
         </ul>
+        <!-- タブの中身 -->
         <div class="tab-content bg-light ">
-            <div id="tab1" class="tab-pane active">
+            <!-- tab1 -->
+            <div id="tab1" class="tab-pane active border rounded">
                 <h3>タブ1の内容</h3>
                 <p>タブ1の内容が入ります。</p>
             </div>
-            <div id="tab2" class="tab-pane">
+            <!-- tab2 -->
+            <div id="tab2" class="tab-pane border rounded">
                 <h3>タブ2の内容</h3>
                 <p>タブ2の内容が入ります。</p>
             </div>
-            <div id="tab3" class="tab-pane">
+            <!-- tab3 -->
+            <div id="tab3" class="tab-pane border rounded">
                 <h3>タブ3の内容</h3>
                 <p>タブ3の内容が入ります。</p>
             </div>
         </div>
     </div>
-    <footer>
-        <div class="footer">
-            <div class="footer__inner">
-                <div class="footer__nav">
-                    <ul>
-                        <li><a href="#">会社概要</a></li>
-                        <li><a href="#">プライバシーポリシー</a></li>
-                        <li><a href="#">お問い合わせ</a></li>
-                    </ul>
-                </div>
-                <div class="footer__sns">
-                    <ul>
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    </ul>
-                </div>
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row footer_link">
+                <div class="col-2"><a href="#">会社概要</a></div>
+                <div class="col-2"><a href="#">プライバシーポリシー</a></div>
+                <div class="col-2"><a href="#">お問い合わせ</a></div>
+                <div class="col-2"><a href="#"><i class="fab fa-twitter"></i>twitter</a></div>
+                <div class="col-2"><a href="#"><i class="fab fa-facebook-f"></i>acebook</a></div>
             </div>
         </div>
     </footer>
