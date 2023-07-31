@@ -19,7 +19,15 @@
 </head>
 
 <body>
-    <div id="header-container"></div>
+    <header>
+        <nav class="container">
+            <div class="row">
+                <div class="col-4"><a href="#">ホーム</a></div>
+                <div class="col-4"><a href="#">サービス</a></div>
+                <div class="col-4"><a href="#">お問い合わせ</a></div>
+            </div>
+        </nav>
+    </header>
     <!-- タブ切り替え -->
     <div class="container">
         <ul class="nav nav-tabs">
@@ -33,7 +41,7 @@
                 <a href="#tab3" class="nav-link" data-toggle="tab">タブ3</a>
             </li>
         </ul>
-        <div class="tab-content">
+        <div class="tab-content bg-light ">
             <div id="tab1" class="tab-pane active">
                 <h3>タブ1の内容</h3>
                 <p>タブ1の内容が入ります。</p>
@@ -48,8 +56,25 @@
             </div>
         </div>
     </div>
-    <div id="footer-container"></div>
-    <script src="./common.js"></script>
+    <footer>
+        <div class="footer">
+            <div class="footer__inner">
+                <div class="footer__nav">
+                    <ul>
+                        <li><a href="#">会社概要</a></li>
+                        <li><a href="#">プライバシーポリシー</a></li>
+                        <li><a href="#">お問い合わせ</a></li>
+                    </ul>
+                </div>
+                <div class="footer__sns">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
